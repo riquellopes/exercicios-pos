@@ -16,4 +16,10 @@ Caso o <code>javac</code> não tenha gerado nenhum mensagem, o arquivo deve ter 
 	
  	java Alo
 
-Não é necessário colocar a extenção no arquivo, caso seja colocado, um <code>exception</code> e gerado pelo <code>java</code>. 
+Não é necessário colocar a extenção no arquivo, caso seja colocado, um <code>exception</code> e gerado pelo <code>java</code>.
+	
+O <code>java</code> possui suporte a geração de documento, com base nos comentários que são feitos no código, e mesmo que nenhum comentário seja feito, também é possível gerar a documentação, como pode ser visto no exercício [alo-mundo](https://github.com/riquellopes/exercicios-pos/tree/master/alo-mundo).
+
+ * Para gerar a documentação:
+	
+	javadoc Alo.java
